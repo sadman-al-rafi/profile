@@ -1,0 +1,8 @@
+body{background-color: lightblue}
+.card{height: 70vh;width: 60vw;border: 1px solid #ccc;background-color: white;border-radius: 3vh;top: 50vh;left: 50vw;transform: translate(-50%,-50%);position: absolute;box-shadow: 3px 3px 3px 3px darkblue;text-align: center;}
+.profile{height: 30vw;width: 30vw;border: 1px solid darkblue;border-radius: 15vw;margin-left: 15vw;margin-right: 15vw;margin-top: 8vw;margin-bottom: 3vw;z-index: 10}
+.msg{height: 50px;width: 30vw;margin-left: 15vw;margin-right: 15vw;background-color: dodgerblue;border-radius: 25px;color:white;border: none;font-size: 15px}
+#mode{height: 50px;width: 50px;border-radius: 25px;background-color: white;border: 2px solid #ccc;margin-top: 30px;position: absolute;right: 30px}
+.ma{margin: 0px;font-size: 25px}
+a{height: 60px;width: 60px;border-radius: 30px;margin: 5px;display: inline-block;color: white;margin-top: 15px;font-size: 28px;text-align: center}
+.fa-brands{margin-top: 13px}

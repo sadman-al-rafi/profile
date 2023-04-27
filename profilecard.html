@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/card.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>Sadman Al Rafi</title>
+</head>
+
+<body>
+  
+<div class="card" id="card">
+  <button id="mode" onclick="back()" class="ma">☀️</button>
+  <img src="/img.jpg" alt="profile image" class="profile">
+  <h1>Sadman Al Rafi</h1>
+  <h3 style="color: dodgerblue">Web developer</h3>
+  <p style="margin-left: 50px;margin-right: 50px">User interface designer and front-end developer.</p>
+  <button class="msg">Message</button>
+  <b><p style="margin-top: 30px;"><i class="fa fa-location-dot" style="margin-right: 10px"></i>Cumilla,Bangladesh</p></b>
+  <a href="" style="background-color: royalblue"><i class="fa-brands fa-facebook"></i></a>
+  <a href="" style="background-color: deeppink"><i class="fa-brands fa-instagram"></i></a>
+  <a href="" style="background-color: red"><i class="fa-brands fa-youtube"></i></a>
+  <a href="" style="background-color: black"><i class="fa-brands fa-github"></i></a>
+</div>
+<script>
+  function back(){
+    var btn=document.querySelector('#mode');
+    if(btn.innerHTML=='☀️'){
+    var card=document.querySelector('#card');
+    btn.innerHTML='🌙'
+    btn.style='background-color:black'
+    document.body.style='background-color:darkslategray'
+    card.style='background-color:dimgray;box-shadow: 3px 3px 3px 3px black;'
+  }
+  else{
+    var card = document.querySelector('#card');
+    btn.innerHTML = '☀️'
+    btn.style = 'background-color:white'
+    document.body.style = 'background-color:lightblue'
+    card.style = 'background-color:white;box-shadow: 3px 3px 3px 3px darkblue;'
+  }
+  }
+</script>
+</body>
+
+</html>
